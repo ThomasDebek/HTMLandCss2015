@@ -3,6 +3,10 @@ Rails.application.routes.draw do
   # get 'welcome#home'
 
 
+  get 'home', to: 'welcome#home', as: :strona_domowa
+  get 'color', to: 'welcome#color', as: :strona_color
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
